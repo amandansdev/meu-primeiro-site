@@ -1,0 +1,89 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem-logo {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-parque video {
+    border-radius: 15px;
+    border: 2px solid blue;
+    max-height: 600px;
+}
+
+video {
+   border-radius: 8px;
+}
+
+.edit-imagem:hover{
+    translate:transform 
+}
+
+body {
+    background: rgb(232, 237, 241);
+    background-image: url(imagens/aquaqua.jpeg);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.centro {
+    text-align: center;
+}
+
+.video-parque video {
+    height: auto;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.botao button{
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+}
+
+@media screen and (min-width: 800px) {
+    .conteudo {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+#pesquisa {
+    border-color: aqua;
+    border-radius: 15px;
+    width: 400px;
+    height: 35px;
+}
+
+.botao-acima button{
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+}
+
+.imagem-animation:hover{
+    transform: scale(1.1);
+}
+
+table img {
+    transform: scale(1.1);
+
+}
+
+.lolo {
+    display: flex;
+    margin-left: 100px;
+    gap: 150px
+    
+}
+
+.lolo img:hover {
+transform: scale(1.1);
+}
