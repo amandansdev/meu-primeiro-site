@@ -87,3 +87,52 @@ table img {
 .lolo img:hover {
 transform: scale(1.1);
 }
+
+.fundo-login{
+    width: 150px;
+    height: 380px;
+    background-color: rgb(31, 130, 187, 0.5);
+    border-radius: 25px;
+    margin-left: 830px;
+}
+
+#loginInput, #senhaInput{
+    width: 230px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+#buttonLogin{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+#buttonLogin:hover{
+    background-color: rgb(255, 187, 0);
+}
+
+.fundo-register{
+    width: 300px;
+    height: 700px;
+    background-color: rgb(31, 130, 187, 0.5);
+    border-radius: 25px;
+    margin-left: 830px;
+}
+
+#lastnameInput, #emailInput, #emailConfirmInput, #confirmsenhaInput, #fisrtnameInput{
+    width: 230px;
+    height: 30px   ;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#buttonRegister{
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    border: none;
+}
